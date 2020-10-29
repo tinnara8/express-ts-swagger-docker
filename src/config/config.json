@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": 112113114,
+    "database": "database_development",
+      "params": {
+      "host": "localhost",
+      "dialect": "postgres",
+      "operatorsAliases": false
+  }
+  },
+  "test": {
+    "username": "postgres",
+    "password": 112113114,
+    "database": "database_test",
+      "params": {
+      "host": "localhost",
+      "dialect": "postgres",
+      "operatorsAliases": false
+  }
+  },
+  "production": {
+    "username": "postgres",
+    "password": 112113114,
+    "database": "database_production",
+      "params": {
+      "host": "localhost",
+      "dialect": "postgres",
+      "operatorsAliases": false
+  }
+  }
+}

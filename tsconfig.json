@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,  // this line
+        "outDir": "dist",
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es2017",
+        // "esModuleInterop": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
